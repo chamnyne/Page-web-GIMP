@@ -43,7 +43,11 @@ th {
 	width:25%;
 	
 }
-
+footer {
+	border-color:black;
+	background-color:gray;
+	
+}
 .Entete{
 	text-align:center;
 	width:80%;
