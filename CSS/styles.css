@@ -1,3 +1,35 @@
 .imageleft{
 float: left;
 }
+
+h1{
+	Font: times;
+	font-size: 36;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	color: green;
+}
+h2{
+	font: times;
+	font-size: 24;
+	text-align: left;
+	text-decoration: underline;
+}
+h3{
+	font: times;
+	font-size: 20;
+}
+body{
+	font: arial;
+	font-size: 16;
+	background-image: url("")	
+}
+img{
+	display: block;
+	margin: auto;
+}
+p{
+	margin:auto;
+	text-align: justify;
+}
