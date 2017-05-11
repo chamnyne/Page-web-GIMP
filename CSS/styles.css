@@ -2,8 +2,6 @@
 float: left;
 }
 
-/*Styles fait par Pierre-Luc*/
-
 h1{
 	Font: times;
 	font-size: 36;
@@ -17,6 +15,7 @@ h2{
 	font-size: 24;
 	text-align: left;
 	text-decoration: underline;
+	clear:both;
 }
 h3{
 	font: times;
@@ -34,4 +33,93 @@ img{
 p{
 	margin:auto;
 	text-align: justify;
+}
+table {
+	
+	width:100%;
+}
+
+th {
+	width:25%;
+	
+}
+
+.Entete{
+	text-align:center;
+	width:80%;
+	float:right;
+	display:block;
+	margin-top:50px;
+}
+.imgGimpGauche {
+	
+	 width:150px;
+	 height:150px;
+	 display:block;
+}
+.imgGimpDroite {
+	
+	 width:150px;
+	 height:150px;
+	 float:right;
+	 display:block;
+}
+
+.piedPage{
+	width:25%;
+}
+/* CSS Classe */
+
+.texte {
+	
+	font-family: "Times New Roman", Times, serif;
+	color:black;
+	text-align: left;
+	font-size: 16pt;
+	font-weight: bold;
+	
+
+}
+.menu {
+	font-size: 14pt;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.imageGauche{
+	
+	margin-left:20%;
+	float: left;
+}
+.imageDroite{
+	margin-left:10%;
+	
+}
+.imageMilieu{
+	display: block;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.bas {
+	
+	margin-left: 5%;
+	margin-top: 750px;
+}
+.entete {
+	
+	font-family: "Times New Roman", Times, serif;
+	color: #00F;
+	text-align: left;
+	font-size: 20pt;
+	font-weight: bold;
+	
+	
+}
+.titre {
+	font-family: "Times New Roman", Times, serif;
+	color: #00F;
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
 }
