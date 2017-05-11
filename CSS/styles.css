@@ -48,6 +48,15 @@ footer {
 	border-color:black;
 	background-color:gray;	
 }
+ul {
+	list-style-type: none;
+}
+li { 
+    color:black;
+	font-size:16pt;
+
+
+}
 
 .Entete{
 	text-align:center;
