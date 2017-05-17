@@ -1,0 +1,194 @@
+head{	
+    width: 100%; 
+	position:fixed;
+    top:0px;
+	
+}
+h1{
+	Font: times;
+	font-size: 36;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	color: green;
+}
+br {
+	clear:both;
+}
+h2{
+	font: times;
+	font-size: 24;
+	text-align: left;
+	text-decoration: underline;
+	color: #00F;
+}
+
+h3{
+	font: times;
+	font-size: 20;
+}
+
+body{
+	font: arial;
+	font-size: 16;
+	background-image: url("");
+	padding:0;
+    margin:0;
+	width:100%;
+	min-height:100%
+}
+
+img{
+	display: block;
+	margin: auto;
+}
+
+p{
+	margin:auto;
+	text-align: justify;
+	font-size:16pt;
+	margin-right:15%;
+}
+
+table {
+	width:100%;
+}
+
+th {
+	width:15%;
+	
+}
+
+footer {
+	
+	position:fixed;
+    bottom:0;
+	border-color:black;
+	background-color:gray;	
+}
+ul {
+	list-style-type: none;
+	
+}
+li { 
+    color:black;
+	font-size:16pt;
+}
+
+.content{
+	padding-top:160px;
+	
+}
+.haut {
+	width: 100%;
+	background-color:gray;
+	position:fixed;
+	
+
+}
+.listeOption
+{
+	position:fixed;
+	background-color:gray;
+	
+	}
+.menuGauche{
+	 top: 185px;
+    right: 5px;
+position:fixed;
+border-style: double;
+background-color:gray;
+
+}
+.Entete{
+	text-align:center;
+	width:75%;
+	float:left;
+	display:block;
+	margin-top:40px;
+	font-family: "Times New Roman", Times, serif;
+	color: #00F;
+	font-size: 30pt;
+	font-weight: bold;
+}
+
+.imgGimpGauche {
+	 width:12%;
+	 height:12%;
+	 display:block;
+	 right:5%;
+	 	float:left;
+}
+
+.imgGimpDroite {
+	  width:12%;
+	 height:12%;
+	float:left;
+	 display:block;
+	 margin-left:5px;
+	 
+}
+
+.imageleft{
+float: left;
+}
+
+.piedPage{
+	width:25%;
+}
+
+
+.texte{
+	
+	font-family: "Times New Roman", Times, serif;
+	color:black;
+	text-align: left;
+	font-size: 16pt;
+	font-weight: bold;
+}
+.menu {
+	font-size: 14pt;
+	
+	text-align: center;
+}
+
+.listeMenu
+{
+	border-style: double;
+}
+.imageGauche{	
+	margin-left:20%;
+	float: left;
+}
+
+.imageDroite{
+	margin-left:50%;	
+}
+
+.imageMilieu{
+	display: block;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.bas {	
+	margin-left: 5%;
+	margin-top: 750px;
+}
+
+.entete {
+	font-family: "Times New Roman", Times, serif;
+	color: #00F;
+	text-align: left;
+	font-size: 30pt;
+	font-weight: bold;
+}
+
+.titre {
+	font-family: "Times New Roman", Times, serif;
+	color: #00F;
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+}
