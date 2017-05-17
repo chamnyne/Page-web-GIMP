@@ -47,7 +47,7 @@ p{
 	margin:auto;
 	text-align: justify;
 	font-size:16pt;
-	margin-right:200px;
+	margin-right:15%;
 }
 
 table {
@@ -93,18 +93,23 @@ li {
 	
 	}
 .menuGauche{
-	 top: 175px;
+	 top: 185px;
     right: 5px;
 position:fixed;
 border-style: double;
+background-color:gray;
 
 }
 .Entete{
 	text-align:center;
-	width:70%;
+	width:75%;
 	float:left;
 	display:block;
 	margin-top:40px;
+	font-family: "Times New Roman", Times, serif;
+	color: #00F;
+	font-size: 30pt;
+	font-weight: bold;
 }
 
 .imgGimpGauche {
@@ -120,7 +125,8 @@ border-style: double;
 	 height:12%;
 	float:left;
 	 display:block;
-	 left:5%;
+	 margin-left:5px;
+	 
 }
 
 .imageleft{
@@ -142,8 +148,7 @@ float: left;
 }
 .menu {
 	font-size: 14pt;
-	padding-top:10px;
-	padding-bottom:10px;
+	
 	text-align: center;
 }
 
@@ -176,7 +181,7 @@ float: left;
 	font-family: "Times New Roman", Times, serif;
 	color: #00F;
 	text-align: left;
-	font-size: 20pt;
+	font-size: 30pt;
 	font-weight: bold;
 }
 
