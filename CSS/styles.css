@@ -1,3 +1,9 @@
+head{	
+    width: 100%; 
+	position:fixed;
+    top:0px;
+	
+}
 h1{
 	Font: times;
 	font-size: 36;
@@ -6,14 +12,15 @@ h1{
 	text-decoration: underline;
 	color: green;
 }
-
+br {
+	clear:both;
+}
 h2{
 	font: times;
 	font-size: 24;
 	text-align: left;
 	text-decoration: underline;
 	color: #00F;
-	clear:both;
 }
 
 h3{
@@ -24,7 +31,9 @@ h3{
 body{
 	font: arial;
 	font-size: 16;
-	background-image: url("")	
+	background-image: url("");
+	padding:0;
+    margin:0;
 }
 
 img{
@@ -35,6 +44,8 @@ img{
 p{
 	margin:auto;
 	text-align: justify;
+	font-size:16pt;
+	margin-right:200px;
 }
 
 table {
@@ -42,7 +53,8 @@ table {
 }
 
 th {
-	width:25%;
+	width:15%;
+	
 }
 
 footer {
@@ -51,33 +63,58 @@ footer {
 }
 ul {
 	list-style-type: none;
+	
 }
 li { 
     color:black;
 	font-size:16pt;
-
-
 }
 
+.content{
+	padding-top:160px;
+	
+}
+.haut {
+	width: 100%;
+	background-color:gray;
+	position:fixed;
+	
+
+}
+.listeOption
+{
+	position:fixed;
+	background-color:gray;
+	border-style: double;
+	}
+.menuGauche{
+	 top: 200px;
+    right: 16px;
+position:fixed;
+
+}
 .Entete{
 	text-align:center;
-	width:80%;
-	float:right;
+	width:70%;
+	float:left;
 	display:block;
 	margin-top:50px;
 }
 
 .imgGimpGauche {
-	 width:150px;
-	 height:150px;
+	 width:12%;
+	 height:12%;
 	 display:block;
+	 right:5%;
+	 	float:left;
 }
 
 .imgGimpDroite {
-	 width:150px;
-	 height:150px;
-	 float:right;
+	  width:12%;
+	 height:12%;
+	float:left;
 	 display:block;
+	 left:5%;
 }
 
 .imageleft{
@@ -101,6 +138,7 @@ float: left;
 	font-size: 14pt;
 	padding-top:10px;
 	padding-bottom:10px;
+	text-align: center;
 }
 
 .imageGauche{	
