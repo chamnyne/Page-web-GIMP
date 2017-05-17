@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+<div class="haut">
 <head>
 
 		<link rel="stylesheet" href="CSS/styles.css">
@@ -8,26 +9,44 @@
 		<meta charset="UTF-8">
 		<title>GIMP</title>
 		
-		<img src="Images/gimp.png"  class="imgGimpDroite">
-			<h1 class="Entete">Notre site sur GIMP</h1>
 		<img src="Images/gimp.png"  class="imgGimpGauche">
+			<h1 class="Entete">Notre site sur GIMP</h1>
+		<img src="Images/gimp.png"  class="imgGimpDroite">
 	 <table class="menu">
+<tr class="listeOption">
+ <th  class="listeMenu"><a href="page marc.html">Acceuil</a></th>
+  <th  class="listeMenu"><a href="page marc.html">Manipulation avec dessin et texte</a></th>
+  <th  class="listeMenu"><a href="page PL.html">Photomontage avec des calques</a></th>
+  <th  class="listeMenu"><a href="page jean-alain.html">Environnement</a></th>
+  <th  class="listeMenu"><a href="page jeniffer.html">Retouches de photographie</a></th>
+  <th  class="listeMenu"><a href="exercice.pdf" download> Exercice</a></th>
+  <th  class="listeMenu"><a href="page reference.html">Reference</a></th>
+  </tr>
 
-  <th><a href="page marc.html">Manipulation avec dessin et texte</a></th>
-  <th><a href="page PL.html">Photomontage avec des calques</a></th>
-  <th><a href="page jean-alain.html">Environnement</a></th>
-  <th><a href="page jeniffer.html">Retouches de photographie</a></th>
-  <th><a href="exercice.pdf" download> Exercice</a></th>
+ 
+  
   </table>
 	</head> 
-  
+	</div>
+ 
+	<body>  
+	<div class ="content">
+	<div>
+	 <ol class="menuGauche" >
+  <li><a href="#bordImage">Bord d’image flou</a></li>
+  <li><a href="#detourage"> Détourage</a></li>
+  <li><a href="#incrustation">Incrustation</a></li>
+  <li><a href="#fondue">Image fondue sur une autre image</a></li>
+  <li><a href="#texture"> Texturer une forme en image</a></li>
+  </ol>
+</br>
 <body>
   <h1> Photomontage (Pierre-Luc) </h1>  
   <p>
     Dans cette partie, il sera question de photomontage, c'est-à-dire faire des montages photo ou photoshop. 
   </p>
   
-  <h2>Bord d’image flou</h2>
+  <h2><a name =bordImage>Bord d’image flou</a></h2>
   <p>
    Ouvrez votre image. Aller dans l’onglet filtre(filter) sélectionner Décor dans ce menu 
    sélectionner fuzzy Border (coin arrondi), 
@@ -66,7 +85,7 @@
   </p>
   <img src="./Images/Photo/auroreBoréalBordure.png">
   </br>
-  <h2>Détourage</h2>
+  <h2 ><a name =detourage >Détourage</a></h2>
   <p>
     Ouvrez avec GIMP l’image que vous voulez découper. En suite sélectionner l’outil de découpage
     (le petit lasso) à travers le menu outil, la boîte à outil ou en appuyant sur ‘f’.
@@ -96,7 +115,7 @@
   </p>
   <img src="./Images/Screenshoot/Découpage4.jpg">
   </br>
-  <h2>Incrustation</h2>
+  <h2 ><a name =incrustation>Incrustation</a></h2>
   <p>
     Vous voulez ajouter un élément à une photo vous avez déjà les compétences. 
     Essentiellement il s’agit d’un détourage que vous avez fait et coller sur une autre image. 
@@ -109,7 +128,7 @@
   <img src="./Images/Photo/oursParis.png">
   </br>
   
-  <h2>Image fondue sur une autre image</h2>
+  <h2><a name =fondue>Image fondue sur une autre image</a></h2>
   <p>
     Premièrement choisir deux images, l’une qui servira de fondu (c’est à dire qui sera la couche 
     supérieure comme un calque ou une acétate) et l’une qui fera le fond.
@@ -173,7 +192,7 @@
   
   <img src="./Images/Photo/Ecoled'AthennePlaton.jpg">
   </br>
-  <h2>Texturer une forme en image</h2>
+  <h2 ><a name =texture>Texturer une forme en image</a></h2>
   <p>
     Cette opération est simple vous appliqué les principes expliqués dans le détourage, mais au 
     lieu de détourer un objet pour l’appliqué ailleurs vous détourner l’objet pour faire une forme.

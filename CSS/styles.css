@@ -34,6 +34,8 @@ body{
 	background-image: url("");
 	padding:0;
     margin:0;
+	width:100%;
+	min-height:100%
 }
 
 img{
@@ -58,6 +60,9 @@ th {
 }
 
 footer {
+	
+	position:fixed;
+    bottom:0;
 	border-color:black;
 	background-color:gray;	
 }
@@ -85,12 +90,13 @@ li {
 {
 	position:fixed;
 	background-color:gray;
-	border-style: double;
+	
 	}
 .menuGauche{
-	 top: 200px;
-    right: 16px;
+	 top: 175px;
+    right: 5px;
 position:fixed;
+border-style: double;
 
 }
 .Entete{
@@ -98,7 +104,7 @@ position:fixed;
 	width:70%;
 	float:left;
 	display:block;
-	margin-top:50px;
+	margin-top:40px;
 }
 
 .imgGimpGauche {
@@ -124,7 +130,7 @@ float: left;
 .piedPage{
 	width:25%;
 }
-/* CSS Classe */
+
 
 .texte{
 	
@@ -141,6 +147,10 @@ float: left;
 	text-align: center;
 }
 
+.listeMenu
+{
+	border-style: double;
+}
 .imageGauche{	
 	margin-left:20%;
 	float: left;
